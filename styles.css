@@ -131,6 +131,7 @@ ul {
     border-radius: 4px;
     padding: 16px 48px;
     gap: 16px;
+    width: 900px;
 }
 
 .action-text {
@@ -150,3 +151,10 @@ ul {
     color: antiquewhite;
 }
 
+button {
+    background-color: #3882F6;
+    border: 1px solid antiquewhite;
+    color: antiquewhite;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
