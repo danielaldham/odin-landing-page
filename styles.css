@@ -18,10 +18,13 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
 }
 
 .logo {
@@ -41,22 +44,16 @@ a {
     font-size: 18px;
 }
 
-.hero,
-.quote,
-.information,
-.action {
-    height: 300px;
-}
-
 .footer {
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
     padding: 20px;
+    flex-direction: column;
 }
 
 .hero-image {
-    height: 200px;
+    height: 300px;
     width: auto;
 }
 
@@ -67,10 +64,45 @@ a {
 }
 
 .hero {
-    justify-content: center;
     align-items: center;
+    padding: 60px;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .hero-main {
     font-size: 48px;
+}
+
+.information img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: #1F2937 solid 1px;
+    object-fit: cover;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    gap: 48px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-heading{
+    font-size: 36px;
+    color: #1F2937;
 }
