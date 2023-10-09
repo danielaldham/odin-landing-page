@@ -6,12 +6,6 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.hero-img img {
-    height: 300px;
-    width: auto;
-    border-radius: 20px;
-}
-
 .container-body {
     display: flex;
     flex-direction: column;
@@ -22,6 +16,24 @@ body {
     align-items: center;
     background-color: #1F2937;
     color: antiquewhite;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header-links {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    padding: none;
+    display: flex;
+    gap: 16px;
+
 }
 
 .container-hero {
@@ -30,6 +42,12 @@ body {
     background-color: #1F2937;
     color: antiquewhite;
     padding: 40px;
+}
+
+.hero-img img {
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
 }
 
 .container-info {
