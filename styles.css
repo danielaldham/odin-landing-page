@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
+
+.container-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: antiquewhite;
+}
+
+.container-hero {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: antiquewhite;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-action {
+    display: flex;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: antiquewhite;
+}
+
+.info-cards {
+    display: flex;
+}
