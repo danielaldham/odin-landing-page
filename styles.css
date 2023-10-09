@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     margin: 0px;
     padding: 0px;
+    font-family: Roboto, sans-serif;
 }
 
-img {
+.hero-img img {
     height: 300px;
     width: auto;
+    border-radius: 20px;
 }
 
 .container-body {
