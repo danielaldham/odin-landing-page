@@ -24,16 +24,17 @@ body {
     font-size: 24px;
 }
 
-.header-links {
-    font-size: 18px;
-}
-
 ul {
     list-style: none;
     padding: none;
     display: flex;
     gap: 16px;
+}
 
+.header-links a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 18px;
 }
 
 .container-hero {
@@ -42,6 +43,21 @@ ul {
     background-color: #1F2937;
     color: antiquewhite;
     padding: 40px;
+    justify-content: space-around;
+}
+
+.hero-text {
+    width: 400px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.hero-subtext {
+    font-size: 18px;
 }
 
 .hero-img img {
@@ -83,7 +99,19 @@ ul {
 .container-quote {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 40px 120px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
 }
 
 .container-action {
